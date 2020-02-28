@@ -20,15 +20,7 @@ Included is a build artifact that can be referenced by your working module or si
 Simply running the FrameDecoder.jar will run the test scenarios created in the instructions with the addition of a couple of tests I added.  
 
 The FrameDecoder.jar can be found in the following directory:
-spreadsheet-evaluator
-|___out
-    |___artifacts  <-- FrameDecoder.jar located here
-|___src
-    |___main
-        |___java
-            |___...
-    |___test
-
+out -> artifacts
 
 If you want to add additional tests or experiment with the decoder, you may load the source in your IDE of choice and run from there.  The file in which the main method lives is the FrameDecoderTest file.    
 
