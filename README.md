@@ -21,7 +21,7 @@ In the referenced instructions, the Main Class was set to main.java.FrameDecoder
 
 After you have created a jar, you can either run from a context menu within IntelliJ or run 
 ```
-java -jar FrameDecoder.jar
+>   java -jar FrameDecoder.jar
 ```
 from the command line.
 
