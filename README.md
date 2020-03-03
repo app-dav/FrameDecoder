@@ -23,6 +23,7 @@ After you have created a jar, you can either run from a context menu within Inte
 ```
 java -jar FrameDecoder.jar
 ```
+from the command line.
 
 Simply running the FrameDecoder.jar will run the test scenarios created in the instructions with the addition of a couple of tests I added.  
 
