@@ -19,6 +19,11 @@ I packaged the app using IntelliJ IDEA and referenced the following docs: https:
 
 In the referenced instructions, the Main Class was set to main.java.FrameDecoderTest and the CLASSPATH was left to the default value.
 
+After you have created a jar, you can either run from a context menu within IntelliJ or run 
+```
+java -jar FrameDecoder.jar
+```
+
 Simply running the FrameDecoder.jar will run the test scenarios created in the instructions with the addition of a couple of tests I added.  
 
 If you want to add additional tests or experiment with the decoder, you may load the source in your IDE of choice and run from there.  The file in which the main method lives is the FrameDecoderTest file.    
