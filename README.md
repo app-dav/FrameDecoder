@@ -15,16 +15,11 @@ FrameDecoder decoder = new MessageFrameDecoder();
 Collection<Message> messages = decoder.readBytes(byteStream);
 ```
 
-Included is a build artifact that can be referenced by your working module or simply ran to run the included tests.  Note that this may not always be up to date as it will be the artifact that was last built and pushed to the remote repo.  You also have to the option to build artifacts from source to ensure the latest or if you have made updates.  
-
 I packaged the app using IntelliJ IDEA and referenced the following docs: https://www.jetbrains.com/help/idea/packaging-a-module-into-a-jar-file.html
 
 In the referenced instructions, the Main Class was set to main.java.FrameDecoderTest and the CLASSPATH was left to the default value.
 
 Simply running the FrameDecoder.jar will run the test scenarios created in the instructions with the addition of a couple of tests I added.  
-
-The FrameDecoder.jar can be found in the following directory:
-out -> artifacts
 
 If you want to add additional tests or experiment with the decoder, you may load the source in your IDE of choice and run from there.  The file in which the main method lives is the FrameDecoderTest file.    
 
